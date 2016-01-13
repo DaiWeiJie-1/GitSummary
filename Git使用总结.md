@@ -75,10 +75,10 @@ git log
 git log --stat
 
 //查看该版本的修改详情
-git log -p commit_code
+git log -p <commit_version_code>
 
 //查看该文件的修改历史
-git log -p file_name
+git log -p <file_name>
 ```
 
 
