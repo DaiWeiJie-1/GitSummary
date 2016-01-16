@@ -1,8 +1,5 @@
-﻿# Git使用总结
+﻿# Git使用
 
-标签（空格分隔）： git
-
----
 
 #查看分支
 ```
@@ -31,6 +28,11 @@ git push origin <remote_branch_name>
 //推送指定本地分支到指定远程分支
 git push origin <local_branch_name> : <remote_branch_name>
 
+//将本地分支与远程分支建立关联并推送
+git push -u origin <remote_branch_name>
+
+//强制推送
+git push -f
 ```
 
 #本地分支添加索引
@@ -75,10 +77,10 @@ git log
 git log --stat
 
 //查看该版本的修改详情
-git log -p <commit_version_code>
+git log -p commit_code
 
 //查看该文件的修改历史
-git log -p <file_name>
+git log -p file_name
 ```
 
 
